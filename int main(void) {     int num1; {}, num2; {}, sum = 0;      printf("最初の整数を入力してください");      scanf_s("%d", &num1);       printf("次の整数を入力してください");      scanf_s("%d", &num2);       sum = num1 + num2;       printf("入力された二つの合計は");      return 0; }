@@ -1,0 +1,14 @@
+int main(void)
+{
+    int num1; {}, num2; {}, sum = 0;
+     printf("最初の整数を入力してください");
+     scanf_s("%d", &num1);
+
+     printf("次の整数を入力してください");
+     scanf_s("%d", &num2);
+
+     sum = num1 + num2;
+
+     printf("入力された二つの合計は");
+     return 0;
+}
